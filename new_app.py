@@ -52,7 +52,7 @@ with header:
 
 
 
-filename= r"C:\Users\91890\Data Science - John Sir Class - 12 Oct\Project - Combined Energy production\Final_Random_foret_model.pkl"
+filename= r"Final_Random_foret_model.pkl"
 pickle_file = open(filename, 'rb') 
 classifier = pickle.load(pickle_file)
 
@@ -68,7 +68,7 @@ def predict(Temperature,Vacuume,Pressure,Humidity):
 with dataset:
     st.header('Energy Dataset')
     
-    energy_data = get_data('C:/Users/91890/golddeployment/energy_production.csv',    )
+    energy_data = get_data('energy_production.csv',    )
     st.write(energy_data.head(50))
     st.write(energy_data.shape)
 
