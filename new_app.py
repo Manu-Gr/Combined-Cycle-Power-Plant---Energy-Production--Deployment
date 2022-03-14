@@ -49,7 +49,7 @@ def get_data(file):
   
 with header:
     st.title('Combined Cycle Power Plant Energy Prediction')
-
+    st.markdown('Project by Manu G')
 
 
 filename= r"Final_Random_foret_model.pkl"
